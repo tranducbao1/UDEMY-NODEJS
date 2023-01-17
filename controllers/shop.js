@@ -58,7 +58,7 @@ exports.getCart = (req, res, next) => {
     });
   });
 };
-
+//sequelize
 exports.getOrders = (req, res, next) => {
   res.render("shop/orders", {
     path: "/orders",
