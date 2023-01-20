@@ -4,3 +4,4 @@ const sequelize = new Sequelize(`node_complete`, `root`, `congnghethongtin`, {
   host: "localhost",
 });
 module.exports = sequelize;
+//mongodb
