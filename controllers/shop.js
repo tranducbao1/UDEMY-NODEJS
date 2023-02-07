@@ -106,7 +106,7 @@ exports.postCartDeleteProduct = (req, res, next) => {
     })
     .catch((err) => console.log(err));
 };
-
+//
 exports.postOrder = (req, res, next) => {
   req.user
     .populate("cart.items.productId")
