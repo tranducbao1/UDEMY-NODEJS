@@ -7,7 +7,7 @@ exports.getLogin = (req, res, next) => {
     isAuthenticated: false,
   });
 };
-//
+
 exports.postLogin = (req, res, next) => {
   User.findById("63de529dcd25ffe2a682b300")
     .then((user) => {
